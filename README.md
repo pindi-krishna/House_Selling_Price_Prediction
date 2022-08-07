@@ -1,10 +1,11 @@
 # House_Selling_Price_Prediction
-Kaggle Competetion. [More details can be found here] (https://www.kaggle.com/competitions/home-data-for-ml-course/submissions)
+Kaggle Competetion. [More details can be found here](https://www.kaggle.com/competitions/home-data-for-ml-course/submissions)
 
 Steps :
 * Exploratory Data Analysis (EDA)
     * Structure Investigation 
         | Structural Parameters     | Values |
+        | --------------------------|--------|
         | Number of Entries         | 1460   |
         | Number of Features        | 79     |
         | Number of Float Features  | 3      |
@@ -13,6 +14,7 @@ Steps :
 
     * Splitting the data into Numerical and Categorical columns. 
         | Number of Numerical Columns |  Categorical Columns  |
+        | ----------------------------|-----------------------|
         |              36             |       43              |
 
     * Checking for duplicates and removing them if any
@@ -70,6 +72,7 @@ Steps :
     * Paramters tried using [GridSearchCV](https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.GridSearchCV.html)
 
         | Hyper Parameters  | Values                         |
+        | ------------------|--------------------------------|
         | n_estimators      | [150, 200, 250, 300, 350, 400] |
         | learning_rate     | [0.1, 0.15, 0.2, 0.25]         |
         | max_depth         | [4, 5, 6, 7, 8, 9]             |
@@ -77,6 +80,7 @@ Steps :
     * Best Parameters Found : 
 
         | learning_rate | max_depth | n_estimators |
+        | ------------- | ----------| -------------|
         |  0.1          |     5     |    150       |
 
 ***For any queries or suggestions, Please feel free to contact me on LinkedIn or on email***
