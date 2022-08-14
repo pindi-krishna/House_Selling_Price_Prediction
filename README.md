@@ -50,30 +50,30 @@
 
 * Checking for Null Values
     * Null values distribution of Numerical Columns in train dataset.
-        ![Number of Null values in Numerical Columns](./Images/train_num_null.png) 
+        ![Number of Null values in Numerical Columns](./Images/train_null_num.png) 
 
     * Null values distribution of Categorical Columns in train dataset.
-        ![Number of Null values in Categorical Columns](./Images/train_cat_null.png)
+        ![Number of Null values in Categorical Columns](./Images/train_null_cat.png)
     
     * Null values distribution of Numerical Columns in test dataset.
-        ![Number of Null values in Numerical Columns](./Images/test_num_null.png) 
+        ![Number of Null values in Numerical Columns](./Images/test_null_num.png) 
 
     * Null values distribution of Categorical Columns in test dataset.
-        ![Number of Null values in Categorical Columns](./Images/test_cat_null.png)
+        ![Number of Null values in Categorical Columns](./Images/test_null_cat.png)
 
 * Histograms
 
     * Histograms of Numerical Columns in train dataset
-        ![Histograms of all Numerical Columns](./Images/train_num_hist.png)
+        ![Histograms of all Numerical Columns](./Images/train_hist_num.png)
     
     * Histograms of Categorical Columns in train dataset
-        ![Histograms of all Categorical Columns](./Images/train_cat_hist.png)
+        ![Histograms of all Categorical Columns](./Images/train_hist_cat.png)
 
     * Histograms of Numerical Columns in test dataset
-        ![Histograms of all Numerical Columns](./Images/test_num_hist.png)
+        ![Histograms of all Numerical Columns](./Images/test_hist_num.png)
     
     * Histograms of Categorical Columns in test dataset
-        ![Histograms of all Categorical Columns](./Images/test_cat_hist.png)
+        ![Histograms of all Categorical Columns](./Images/test_hist_cat.png)
 
 * Skewness 
     | Dataset | Features type | Features |
@@ -169,7 +169,7 @@
 * One can still work on improving the results on this dataset. 
 * I would like to recommend one to go through this repo entirely, understand the code, reproduce the results, go through better feature engineering techinques, apply them and try to boost your rank on the Kaggle leaderboard. 
 
+***For any queries or suggestions, Please feel free to contact me on LinkedIn or on email*** 
 
-***For any queries or suggestions, Please feel free to contact me on LinkedIn or on email*** \
-***Please do give a star, if this is helpful*** \
-***Thank you***          
+# Please do give a star, if this is helpful 
+# Thank you       
